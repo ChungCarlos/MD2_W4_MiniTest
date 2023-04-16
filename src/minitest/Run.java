@@ -63,6 +63,8 @@ public class Run {
                     String phone = scanner.nextLine();
                     phoneBookManage.updatePhone(name,phone);
                     break;}
+                case 0:
+                    scanner.close();
                 default:
                     System.out.println(" Please choose the correct function number sequence above!");
             }
